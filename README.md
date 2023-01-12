@@ -1,5 +1,7 @@
 # Gatsby Failing to Reload Page Data
 
+When using an external data source to populate pages and page data in `gatsby-node.js`, Gatsby never retrieves new `page-data.json` files on deploy. This results in stale data if users navigate between pages but never reload manually.
+
 ```
 npm i
 ```
